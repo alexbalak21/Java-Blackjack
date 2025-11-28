@@ -10,7 +10,5 @@ public class Main {
         Window window = new Window();
         window.frame.add(new CardPanel());
         window.display();
-
-
     }
 }
