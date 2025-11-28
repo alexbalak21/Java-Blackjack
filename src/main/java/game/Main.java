@@ -1,14 +1,16 @@
 package game;
+import window.CardPanel;
+import window.ImagePanel;
+import window.Window;
 
-import game.cards.Card;
-import game.cards.Deck;
-import game.cards.Rank;
-import game.cards.Suit;
+import javax.swing.*;
 
 public class Main {
     static void main() {
-        Deck deck = new Deck();
-        deck.shuffle();
-        deck.printDeck();
+        Window window = new Window();
+        window.frame.add(new CardPanel());
+        window.display();
+
+
     }
 }
