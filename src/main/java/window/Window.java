@@ -9,8 +9,8 @@ public class Window {
     public Window(){
             frame = new JFrame("Black Jack");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.setSize(1200, 800);
-            frame.getContentPane().setBackground(java.awt.Color.GREEN);
+            frame.setSize(WIDTH, HEIGHT);
+            frame.getContentPane().setBackground(new java.awt.Color(1, 127, 1)); // #017F01
         }
 
     public void display(){
