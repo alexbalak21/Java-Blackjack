@@ -1,7 +1,9 @@
 package game;
 
-import window.*;
 import game.cards.*;
+import ui.components.DealerPanel;
+import ui.components.PlayerPanel;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
